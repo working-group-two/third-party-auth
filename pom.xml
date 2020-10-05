@@ -18,6 +18,11 @@
         <scribejava.version>7.1.1</scribejava.version>
     </properties>
 
+    <modules>
+        <module>scribejava</module>
+        <module>jwt</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -30,7 +35,6 @@
                 <artifactId>scribejava-apis</artifactId>
                 <version>${scribejava.version}</version>
             </dependency>
-
             <!-- Test -->
             <dependency>
                 <groupId>com.google.guava</groupId>
@@ -38,7 +42,6 @@
                 <version>29.0-jre</version>
                 <scope>test</scope>
             </dependency>
-
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
@@ -48,10 +51,6 @@
         </dependencies>
     </dependencyManagement>
 
-
-    <modules>
-        <module>scribejava</module>
-    </modules>
     <build>
         <pluginManagement>
             <plugins>
