@@ -25,17 +25,19 @@ Currently this must be done via [JitPack](https://jitpack.io/)
 ```
 
 ### Add dependencies
+You may replace `main-SNAPSHOT` with the short commit hash.
+
 ```
 <dependencies>
     <dependency>
         <groupId>com.github.working-group-two.third-party-auth</groupId>
         <artifactId>jwt</artifactId>
-        <version>f4cf338251724c9a22081c78e67a388a071c0e11</version>
+        <version>main-SNAPSHOT</version>
     </dependency>
     <dependency>
         <groupId>com.github.working-group-two.third-party-auth</groupId>
         <artifactId>scribejava</artifactId>
-        <version>f4cf338251724c9a22081c78e67a388a071c0e11</version>
+        <version>main-SNAPSHOT</version>
     </dependency>
 </depenencies>
 
